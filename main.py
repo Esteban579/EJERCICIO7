@@ -11,4 +11,5 @@ ancho = int(input("Ancho de la ventana: "))
 alto = int(input("Alto de la ventana: "))
 size[0] = ancho
 size[1] = alto
-main2(size)
+titulo = input("pedir titulo: ")
+main2(size, titulo)
